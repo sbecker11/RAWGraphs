@@ -1,0 +1,544 @@
+job,skill,years
+Consulting Data Engineer / Warner Brothers,Machine Learning,1
+Consulting Data Engineer / Warner Brothers,_SageMaker,1
+Consulting Data Engineer / Warner Brothers,OpenCV,1
+Consulting Data Engineer / Warner Brothers,Numpy,1
+Consulting Data Engineer / Warner Brothers,Pandas,1
+Consulting Data Engineer / Warner Brothers,Keras,1
+Consulting Data Engineer / Warner Brothers,Jupyter,1
+Consulting Data Engineer / Warner Brothers,_Glue,1
+Consulting Data Engineer / Warner Brothers,_Elastic Map Reduce,1
+Consulting Data Engineer / Warner Brothers,_Data Pipeline,1
+Consulting Data Engineer / Warner Brothers,Apache Parquet,1
+Consulting Data Engineer / Warner Brothers,_Secrets Manager,1
+Consulting Data Engineer / Warner Brothers,_CLI,1
+Consulting Data Engineer / Warner Brothers,_architecture,1
+Consulting Data Engineer / Warner Brothers,_SQL,1
+Consulting Data Engineer / Warner Brothers,Linux,1
+Consulting Data Engineer / Warner Brothers,_Python,1
+Consulting Data Engineer / Warner Brothers,_PySpark,1
+Consulting Data Engineer / Warner Brothers,PyTest,1
+Consulting Data Engineer / Warner Brothers,Boto3,1
+Consulting Data Engineer / Warner Brothers,Anaconda,1
+Consulting Data Engineer / Warner Brothers,API Gateway,1
+Consulting Data Engineer / Warner Brothers,OpenAPI,1
+Consulting Data Engineer / Warner Brothers,JSON,1
+Consulting Data Engineer / Warner Brothers,Docker,1
+Consulting Data Engineer / Warner Brothers,Kubernetes,1
+Consulting Data Engineer / Warner Brothers,_ECR,1
+Consulting Data Engineer / Warner Brothers,XSLT,1
+Consulting Data Engineer / Warner Brothers,_REST,1
+Consulting Data Engineer / Warner Brothers,_Swagger,1
+Consulting Data Engineer / Warner Brothers,_Postman,1
+Consulting Data Engineer / Warner Brothers,_RDS,1
+Consulting Data Engineer / Warner Brothers,PostgreSQL,1
+Consulting Data Engineer / Warner Brothers,_RedShift,1
+Consulting Data Engineer / Warner Brothers,Selenium,1
+Consulting Data Engineer / Warner Brothers,_SNS,1
+Consulting Data Engineer / Warner Brothers,_CloudFormation,1
+Consulting Data Engineer / Warner Brothers,Adobe Experience Cloud,1
+Consulting Data Engineer / Warner Brothers,DataDog,1
+Consulting Data Engineer / Warner Brothers,Segment CDP,1
+Consulting Data Engineer / Warner Brothers,Chromium,1
+Consulting Data Engineer / Warner Brothers,Akamai,1
+Consulting Data Engineer / Warner Brothers,_SDK,1
+Consulting Data Engineer / Warner Brothers,Confluence,1
+Consulting Data Engineer / Warner Brothers,Jira,1
+Consulting Data Engineer / Warner Brothers,GitLab,1
+Consulting Data Engineer / Warner Brothers,Omnigraffle,1
+Consulting Data Engineer / Warner Brothers,MS Project,1
+Consulting Data Engineer / Angel Studio,Machine Learning,1
+Consulting Data Engineer / Angel Studio,_SageMaker,1
+Consulting Data Engineer / Angel Studio,OpenCV,1
+Consulting Data Engineer / Angel Studio,Numpy,1
+Consulting Data Engineer / Angel Studio,Pandas,1
+Consulting Data Engineer / Angel Studio,Apache Parquet,1
+Consulting Data Engineer / Angel Studio,_Secrets Manager,1
+Consulting Data Engineer / Angel Studio,_CLI,1
+Consulting Data Engineer / Angel Studio,_architecture,1
+Consulting Data Engineer / Angel Studio,_SQL,1
+Consulting Data Engineer / Angel Studio,_Python,1
+Consulting Data Engineer / Angel Studio,_PySpark,1
+Consulting Data Engineer / Angel Studio,PyTest,1
+Consulting Data Engineer / Angel Studio,API Gateway,1
+Consulting Data Engineer / Angel Studio,OpenAPI,1
+Consulting Data Engineer / Angel Studio,XSLT,1
+Consulting Data Engineer / Angel Studio,_REST,1
+Consulting Data Engineer / Angel Studio,_Swagger,1
+Consulting Data Engineer / Angel Studio,_Postman,1
+Consulting Data Engineer / Angel Studio,Oracle,1
+Consulting Data Engineer / Angel Studio,Tableau,1
+Consulting Data Engineer / Angel Studio,Selenium,1
+Consulting Data Engineer / Angel Studio,DataDog,1
+Consulting Data Engineer / Angel Studio,Akamai,1
+Consulting Data Engineer / Angel Studio,WebTrends,1
+Consulting Data Engineer / Angel Studio,_SDK,1
+Consulting Data Engineer / Angel Studio,GitLab,1
+Consulting Data Engineer / Angel Studio,GitHub,1
+Consulting Data Engineer / Angel Studio,Omnigraffle,1
+Consulting Data Engineer / Angel Studio,MS Project,1
+Consulting Data Engineer / Greenseed,_Elastic Map Reduce,1
+Consulting Data Engineer / Greenseed,Apache Parquet,1
+Consulting Data Engineer / Greenseed,_Secrets Manager,1
+Consulting Data Engineer / Greenseed,_CLI,1
+Consulting Data Engineer / Greenseed,_architecture,1
+Consulting Data Engineer / Greenseed,_SQL,1
+Consulting Data Engineer / Greenseed,_Python,1
+Consulting Data Engineer / Greenseed,_PySpark,1
+Consulting Data Engineer / Greenseed,PyTest,1
+Consulting Data Engineer / Greenseed,API Gateway,1
+Consulting Data Engineer / Greenseed,OpenAPI,1
+Consulting Data Engineer / Greenseed,XSLT,1
+Consulting Data Engineer / Greenseed,_REST,1
+Consulting Data Engineer / Greenseed,_Swagger,1
+Consulting Data Engineer / Greenseed,_Postman,1
+Consulting Data Engineer / Greenseed,Selenium,1
+Consulting Data Engineer / Greenseed,Akamai,1
+Consulting Data Engineer / Greenseed,_SDK,1
+Consulting Data Engineer / Greenseed,GitHub,1
+Consulting Data Engineer / Greenseed,Omnigraffle,1
+Consulting Data Engineer / Greenseed,MS Project,1
+Full-stack Developer / NuSkin,_architecture,1
+Full-stack Developer / NuSkin,API Gateway,1
+Full-stack Developer / NuSkin,ECS,1
+Full-stack Developer / NuSkin,EKS,1
+Full-stack Developer / NuSkin,NodeJS,1
+Full-stack Developer / NuSkin,XSLT,1
+Full-stack Developer / NuSkin,Altova XMLSpy,1
+Full-stack Developer / NuSkin,Junit,1
+Full-stack Developer / NuSkin,_SES,1
+Full-stack Developer / NuSkin,PagerDuty,1
+Full-stack Developer / NuSkin,_SDK,1
+Full-stack Developer / NuSkin,Confluence,1
+Full-stack Developer / NuSkin,Jira,1
+Full-stack Developer / NuSkin,GitHub,1
+Senior Data Engineer / SeniorLink,_Airflow,3
+Senior Data Engineer / SeniorLink,_Kinesis,3
+Senior Data Engineer / SeniorLink,_Elastic Map Reduce,3
+Senior Data Engineer / SeniorLink,_Data Pipeline,3
+Senior Data Engineer / SeniorLink,_SQL,3
+Senior Data Engineer / SeniorLink,Linux,3
+Senior Data Engineer / SeniorLink,PyTest,3
+Senior Data Engineer / SeniorLink,API Gateway,3
+Senior Data Engineer / SeniorLink,JQuery,3
+Senior Data Engineer / SeniorLink,XML,3
+Senior Data Engineer / SeniorLink,XSLT,3
+Senior Data Engineer / SeniorLink,Altova XMLSpy,3
+Senior Data Engineer / SeniorLink,_Swagger,3
+Senior Data Engineer / SeniorLink,_Postman,3
+Senior Data Engineer / SeniorLink,_RDS,3
+Senior Data Engineer / SeniorLink,Google BigQuery,3
+Senior Data Engineer / SeniorLink,SimpleDB,3
+Senior Data Engineer / SeniorLink,Selenium,3
+Senior Data Engineer / SeniorLink,_S3,3
+Senior Data Engineer / SeniorLink,_SDK,3
+Senior Data Engineer / SeniorLink,Jira,3
+Senior Data Engineer / SeniorLink,GitLab,3
+Senior Data Engineer / SeniorLink,Jenkins,3
+Senior Data Engineer / SeniorLink,VSCode,3
+Senior Data Engineer / SeniorLink,Omnigraffle,3
+Senior Data Engineer / SeniorLink,MS Project,3
+Senior Data Engineer / SeniorLink.1,_Airflow,3
+Senior Data Engineer / SeniorLink.1,_Kinesis,3
+Senior Data Engineer / SeniorLink.1,_Elastic Map Reduce,3
+Senior Data Engineer / SeniorLink.1,_Data Pipeline,3
+Senior Data Engineer / SeniorLink.1,_SQL,3
+Senior Data Engineer / SeniorLink.1,Linux,3
+Senior Data Engineer / SeniorLink.1,API Gateway,3
+Senior Data Engineer / SeniorLink.1,JQuery,3
+Senior Data Engineer / SeniorLink.1,XML,3
+Senior Data Engineer / SeniorLink.1,XSLT,3
+Senior Data Engineer / SeniorLink.1,Altova XMLSpy,3
+Senior Data Engineer / SeniorLink.1,_Swagger,3
+Senior Data Engineer / SeniorLink.1,_Postman,3
+Senior Data Engineer / SeniorLink.1,_RDS,3
+Senior Data Engineer / SeniorLink.1,Google BigQuery,3
+Senior Data Engineer / SeniorLink.1,SimpleDB,3
+Senior Data Engineer / SeniorLink.1,_S3,3
+Senior Data Engineer / SeniorLink.1,_SDK,3
+Senior Data Engineer / SeniorLink.1,Jira,3
+Senior Data Engineer / SeniorLink.1,GitLab,3
+Senior Data Engineer / SeniorLink.1,Jenkins,3
+Senior Data Engineer / SeniorLink.1,VSCode,3
+Senior Data Engineer / SeniorLink.1,Omnigraffle,3
+Senior Data Engineer / SeniorLink.1,MS Project,3
+Senior Data Engineer / SeniorLink.2,_Airflow,3
+Senior Data Engineer / SeniorLink.2,_Kinesis,3
+Senior Data Engineer / SeniorLink.2,_Elastic Map Reduce,3
+Senior Data Engineer / SeniorLink.2,_Data Pipeline,3
+Senior Data Engineer / SeniorLink.2,_SQL,3
+Senior Data Engineer / SeniorLink.2,Linux,3
+Senior Data Engineer / SeniorLink.2,API Gateway,3
+Senior Data Engineer / SeniorLink.2,JQuery,3
+Senior Data Engineer / SeniorLink.2,Shiro,3
+Senior Data Engineer / SeniorLink.2,XML,3
+Senior Data Engineer / SeniorLink.2,XSLT,3
+Senior Data Engineer / SeniorLink.2,Altova XMLSpy,3
+Senior Data Engineer / SeniorLink.2,_Postman,3
+Senior Data Engineer / SeniorLink.2,_RDS,3
+Senior Data Engineer / SeniorLink.2,Google BigQuery,3
+Senior Data Engineer / SeniorLink.2,SimpleDB,3
+Senior Data Engineer / SeniorLink.2,Selenium,3
+Senior Data Engineer / SeniorLink.2,_S3,3
+Senior Data Engineer / SeniorLink.2,_SDK,3
+Senior Data Engineer / SeniorLink.2,Jira,3
+Senior Data Engineer / SeniorLink.2,GitLab,3
+Senior Data Engineer / SeniorLink.2,Jenkins,3
+Senior Data Engineer / SeniorLink.2,VSCode,3
+Senior Data Engineer / SeniorLink.2,Omnigraffle,3
+Senior Data Engineer / SeniorLink.2,MS Project,3
+Consulting Backend Engineer / BigR.io,_Elastic Map Reduce,1
+Consulting Backend Engineer / BigR.io,Apache Parquet,1
+Consulting Backend Engineer / BigR.io,_Secrets Manager,1
+Consulting Backend Engineer / BigR.io,_CLI,1
+Consulting Backend Engineer / BigR.io,_architecture,1
+Consulting Backend Engineer / BigR.io,API Gateway,1
+Consulting Backend Engineer / BigR.io,Vue,1
+Consulting Backend Engineer / BigR.io,Vuetify,1
+Consulting Backend Engineer / BigR.io,JQuery,1
+Consulting Backend Engineer / BigR.io,XSLT,1
+Consulting Backend Engineer / BigR.io,Altova XMLSpy,1
+Consulting Backend Engineer / BigR.io,SnowFlake,1
+Consulting Backend Engineer / BigR.io,DynamoDB,1
+Consulting Backend Engineer / BigR.io,_Hibernate,1
+Consulting Backend Engineer / BigR.io,Flyway,1
+Consulting Backend Engineer / BigR.io,Jboss,1
+Consulting Backend Engineer / BigR.io,WebSphere,1
+Consulting Backend Engineer / BigR.io,Spring,1
+Consulting Backend Engineer / BigR.io,Spring JPA,1
+Consulting Backend Engineer / BigR.io,Hibernate,1
+Consulting Backend Engineer / BigR.io,Servlets,1
+Consulting Backend Engineer / BigR.io,Maven,1
+Consulting Backend Engineer / BigR.io,Ant,1
+Consulting Backend Engineer / BigR.io,Selenium,1
+Consulting Backend Engineer / BigR.io,_IAM,1
+Consulting Backend Engineer / BigR.io,_S3,1
+Consulting Backend Engineer / BigR.io,Akamai,1
+Consulting Backend Engineer / BigR.io,VSCode,1
+Consulting Backend Engineer / BigR.io,Omnigraffle,1
+Consulting Backend Engineer / BigR.io,MS Project,1
+Technical Lead / ClipFile,Apache Parquet,5
+Technical Lead / ClipFile,_Secrets Manager,5
+Technical Lead / ClipFile,_CLI,5
+Technical Lead / ClipFile,_architecture,5
+Technical Lead / ClipFile,API Gateway,5
+Technical Lead / ClipFile,Vue,5
+Technical Lead / ClipFile,Vuetify,5
+Technical Lead / ClipFile,JQuery,5
+Technical Lead / ClipFile,XSLT,5
+Technical Lead / ClipFile,Altova XMLSpy,5
+Technical Lead / ClipFile,SnowFlake,5
+Technical Lead / ClipFile,DynamoDB,5
+Technical Lead / ClipFile,_Hibernate,5
+Technical Lead / ClipFile,Flyway,5
+Technical Lead / ClipFile,Jboss,5
+Technical Lead / ClipFile,WebSphere,5
+Technical Lead / ClipFile,Spring,5
+Technical Lead / ClipFile,Spring JPA,5
+Technical Lead / ClipFile,Hibernate,5
+Technical Lead / ClipFile,Maven,5
+Technical Lead / ClipFile,Ant,5
+Technical Lead / ClipFile,Selenium,5
+Technical Lead / ClipFile,_IAM,5
+Technical Lead / ClipFile,_S3,5
+Technical Lead / ClipFile,Akamai,5
+Technical Lead / ClipFile,VSCode,5
+Technical Lead / ClipFile,Omnigraffle,5
+Technical Lead / ClipFile,MS Project,5
+Technical Lead / ClipFile.1,Apache Parquet,5
+Technical Lead / ClipFile.1,_Secrets Manager,5
+Technical Lead / ClipFile.1,_CLI,5
+Technical Lead / ClipFile.1,_architecture,5
+Technical Lead / ClipFile.1,API Gateway,5
+Technical Lead / ClipFile.1,Vue,5
+Technical Lead / ClipFile.1,Vuetify,5
+Technical Lead / ClipFile.1,JQuery,5
+Technical Lead / ClipFile.1,XSLT,5
+Technical Lead / ClipFile.1,Altova XMLSpy,5
+Technical Lead / ClipFile.1,SnowFlake,5
+Technical Lead / ClipFile.1,DynamoDB,5
+Technical Lead / ClipFile.1,_Hibernate,5
+Technical Lead / ClipFile.1,Flyway,5
+Technical Lead / ClipFile.1,Jboss,5
+Technical Lead / ClipFile.1,Spring,5
+Technical Lead / ClipFile.1,Spring JPA,5
+Technical Lead / ClipFile.1,Hibernate,5
+Technical Lead / ClipFile.1,Maven,5
+Technical Lead / ClipFile.1,Ant,5
+Technical Lead / ClipFile.1,Selenium,5
+Technical Lead / ClipFile.1,_IAM,5
+Technical Lead / ClipFile.1,_S3,5
+Technical Lead / ClipFile.1,Akamai,5
+Technical Lead / ClipFile.1,VSCode,5
+Technical Lead / ClipFile.1,Omnigraffle,5
+Technical Lead / ClipFile.1,MS Project,5
+Technical Lead / ClipFile.2,Apache Parquet,5
+Technical Lead / ClipFile.2,_Secrets Manager,5
+Technical Lead / ClipFile.2,_CLI,5
+Technical Lead / ClipFile.2,_architecture,5
+Technical Lead / ClipFile.2,API Gateway,5
+Technical Lead / ClipFile.2,Vue,5
+Technical Lead / ClipFile.2,Vuetify,5
+Technical Lead / ClipFile.2,JQuery,5
+Technical Lead / ClipFile.2,XSLT,5
+Technical Lead / ClipFile.2,Altova XMLSpy,5
+Technical Lead / ClipFile.2,DynamoDB,5
+Technical Lead / ClipFile.2,_Hibernate,5
+Technical Lead / ClipFile.2,Flyway,5
+Technical Lead / ClipFile.2,Jboss,5
+Technical Lead / ClipFile.2,Spring,5
+Technical Lead / ClipFile.2,Spring JPA,5
+Technical Lead / ClipFile.2,Hibernate,5
+Technical Lead / ClipFile.2,Maven,5
+Technical Lead / ClipFile.2,Ant,5
+Technical Lead / ClipFile.2,Selenium,5
+Technical Lead / ClipFile.2,_IAM,5
+Technical Lead / ClipFile.2,_S3,5
+Technical Lead / ClipFile.2,Akamai,5
+Technical Lead / ClipFile.2,VSCode,5
+Technical Lead / ClipFile.2,Omnigraffle,5
+Technical Lead / ClipFile.2,MS Project,5
+Technical Lead / ClipFile.3,Apache Parquet,5
+Technical Lead / ClipFile.3,_Secrets Manager,5
+Technical Lead / ClipFile.3,_CLI,5
+Technical Lead / ClipFile.3,_architecture,5
+Technical Lead / ClipFile.3,API Gateway,5
+Technical Lead / ClipFile.3,Vue,5
+Technical Lead / ClipFile.3,Vuetify,5
+Technical Lead / ClipFile.3,JQuery,5
+Technical Lead / ClipFile.3,XSLT,5
+Technical Lead / ClipFile.3,Altova XMLSpy,5
+Technical Lead / ClipFile.3,DynamoDB,5
+Technical Lead / ClipFile.3,_Hibernate,5
+Technical Lead / ClipFile.3,Flyway,5
+Technical Lead / ClipFile.3,Jboss,5
+Technical Lead / ClipFile.3,Spring,5
+Technical Lead / ClipFile.3,Spring JPA,5
+Technical Lead / ClipFile.3,Hibernate,5
+Technical Lead / ClipFile.3,Maven,5
+Technical Lead / ClipFile.3,Ant,5
+Technical Lead / ClipFile.3,Selenium,5
+Technical Lead / ClipFile.3,_IAM,5
+Technical Lead / ClipFile.3,_S3,5
+Technical Lead / ClipFile.3,Akamai,5
+Technical Lead / ClipFile.3,VSCode,5
+Technical Lead / ClipFile.3,Omnigraffle,5
+Technical Lead / ClipFile.3,MS Project,5
+Sierra Vista Group,Apache Parquet,9
+Sierra Vista Group,_Secrets Manager,9
+Sierra Vista Group,_CLI,9
+Sierra Vista Group,_architecture,9
+Sierra Vista Group,VSCode,9
+Sierra Vista Group,PyCharm,9
+Sierra Vista Group,Omnigraffle,9
+__Technical Lead / MSC,Apache Parquet,3
+__Technical Lead / MSC,_Secrets Manager,3
+__Technical Lead / MSC,_CLI,3
+__Technical Lead / MSC,_architecture,3
+__Technical Lead / MSC,XSLT,3
+__Technical Lead / MSC,Altova XMLSpy,3
+__Technical Lead / MSC,VSCode,3
+__Technical Lead / MSC,PyCharm,3
+__Technical Lead / MSC,Omnigraffle,3
+__Consulting Architect  / Eleven,Apache Parquet,2
+__Consulting Architect  / Eleven,_Secrets Manager,2
+__Consulting Architect  / Eleven,_CLI,2
+__Consulting Architect  / Eleven,_architecture,2
+__Consulting Architect  / Eleven,JQuery,2
+__Consulting Architect  / Eleven,Shiro,2
+__Consulting Architect  / Eleven,XML,2
+__Consulting Architect  / Eleven,XSLT,2
+__Consulting Architect  / Eleven,Altova XMLSpy,2
+__Consulting Architect  / Eleven,_Hibernate,2
+__Consulting Architect  / Eleven,Java,2
+__Consulting Architect  / Eleven,VSCode,2
+__Consulting Architect  / Eleven,PyCharm,2
+__Consulting Architect  / Eleven,Omnigraffle,2
+__Consulting Architect  / Eleven,MS Project,2
+__Consulting Architect  / Eleven.1,Apache Parquet,2
+__Consulting Architect  / Eleven.1,_Secrets Manager,2
+__Consulting Architect  / Eleven.1,_CLI,2
+__Consulting Architect  / Eleven.1,_architecture,2
+__Consulting Architect  / Eleven.1,JQuery,2
+__Consulting Architect  / Eleven.1,Shiro,2
+__Consulting Architect  / Eleven.1,XML,2
+__Consulting Architect  / Eleven.1,XSLT,2
+__Consulting Architect  / Eleven.1,Altova XMLSpy,2
+__Consulting Architect  / Eleven.1,_Hibernate,2
+__Consulting Architect  / Eleven.1,Java,2
+__Consulting Architect  / Eleven.1,VSCode,2
+__Consulting Architect  / Eleven.1,PyCharm,2
+__Consulting Architect  / Eleven.1,Omnigraffle,2
+__Consulting Architect  / Eleven.1,MS Project,2
+__Technical Lead / EMI,Apache Parquet,2
+__Technical Lead / EMI,_Secrets Manager,2
+__Technical Lead / EMI,_CLI,2
+__Technical Lead / EMI,_architecture,2
+__Technical Lead / EMI,_Hibernate,2
+__Technical Lead / EMI,VSCode,2
+__Technical Lead / EMI,PyCharm,2
+__Technical Lead / EMI,Omnigraffle,2
+__Technical Lead / EMI,MS Project,2
+__Technical Lead / EMI.1,Apache Parquet,2
+__Technical Lead / EMI.1,_Secrets Manager,2
+__Technical Lead / EMI.1,_CLI,2
+__Technical Lead / EMI.1,_architecture,2
+__Technical Lead / EMI.1,_Hibernate,2
+__Technical Lead / EMI.1,J2EE,2
+__Technical Lead / EMI.1,VSCode,2
+__Technical Lead / EMI.1,PyCharm,2
+__Technical Lead / EMI.1,Omnigraffle,2
+__Technical Lead / EMI.1,MS Project,2
+__Technical Lead / Rowe,Apache Parquet,1
+__Technical Lead / Rowe,_Secrets Manager,1
+__Technical Lead / Rowe,_CLI,1
+__Technical Lead / Rowe,_architecture,1
+__Technical Lead / Rowe,_Hibernate,1
+__Technical Lead / Rowe,J2EE,1
+__Technical Lead / Rowe,VSCode,1
+__Technical Lead / Rowe,PyCharm,1
+__Technical Lead / Rowe,Omnigraffle,1
+__Technical Lead / Rowe,MS Project,1
+__Technical Lead / Rowe.1,Apache Parquet,nan
+__Technical Lead / Rowe.1,_Secrets Manager,nan
+__Technical Lead / Rowe.1,_CLI,nan
+__Technical Lead / Rowe.1,_architecture,nan
+__Technical Lead / Rowe.1,_Hibernate,nan
+__Technical Lead / Rowe.1,PyCharm,nan
+__Technical Lead / Rowe.1,Omnigraffle,nan
+__Technical Lead / Rowe.1,MS Project,nan
+__Conulting Architect/ Instrusic,Apache Parquet,1
+__Conulting Architect/ Instrusic,_Secrets Manager,1
+__Conulting Architect/ Instrusic,_CLI,1
+__Conulting Architect/ Instrusic,_architecture,1
+__Conulting Architect/ Instrusic,Looker,1
+__Conulting Architect/ Instrusic,DynamoDB,1
+__Conulting Architect/ Instrusic,_Hibernate,1
+__Conulting Architect/ Instrusic,VSCode,1
+__Conulting Architect/ Instrusic,PyCharm,1
+__Conulting Architect/ Instrusic,Omnigraffle,1
+__Conulting Architect/ Instrusic,MS Project,1
+__Conulting Architect/ Instrusic,_EC2,1
+Architect / HomePortfoio,Apache Parquet,5
+Architect / HomePortfoio,_Secrets Manager,5
+Architect / HomePortfoio,_CLI,5
+Architect / HomePortfoio,_architecture,5
+Architect / HomePortfoio,XSLT,5
+Architect / HomePortfoio,Altova XMLSpy,5
+Architect / HomePortfoio,_RedShift,5
+Architect / HomePortfoio,MySQL,5
+Architect / HomePortfoio,_Hibernate,5
+Architect / HomePortfoio,Selenium,5
+Architect / HomePortfoio,Terraform,5
+Architect / HomePortfoio,Yml,5
+Architect / HomePortfoio,ATG Dynamo,5
+Architect / HomePortfoio,Akamai,5
+Architect / HomePortfoio,VSCode,5
+Architect / HomePortfoio,PyCharm,5
+Architect / HomePortfoio,Omnigraffle,5
+Architect / HomePortfoio,MS Project,5
+Architect / HomePortfoio.1,Apache Parquet,5
+Architect / HomePortfoio.1,_Secrets Manager,5
+Architect / HomePortfoio.1,_CLI,5
+Architect / HomePortfoio.1,_architecture,5
+Architect / HomePortfoio.1,XSLT,5
+Architect / HomePortfoio.1,Altova XMLSpy,5
+Architect / HomePortfoio.1,_RedShift,5
+Architect / HomePortfoio.1,MySQL,5
+Architect / HomePortfoio.1,_Hibernate,5
+Architect / HomePortfoio.1,Selenium,5
+Architect / HomePortfoio.1,Terraform,5
+Architect / HomePortfoio.1,Yml,5
+Architect / HomePortfoio.1,ATG Dynamo,5
+Architect / HomePortfoio.1,Akamai,5
+Architect / HomePortfoio.1,MS Project,5
+Architect / HomePortfoio.2,Apache Parquet,5
+Architect / HomePortfoio.2,_Secrets Manager,5
+Architect / HomePortfoio.2,_CLI,5
+Architect / HomePortfoio.2,_architecture,5
+Architect / HomePortfoio.2,XSLT,5
+Architect / HomePortfoio.2,Altova XMLSpy,5
+Architect / HomePortfoio.2,_RedShift,5
+Architect / HomePortfoio.2,MySQL,5
+Architect / HomePortfoio.2,_Hibernate,5
+Architect / HomePortfoio.2,Selenium,5
+Architect / HomePortfoio.2,Terraform,5
+Architect / HomePortfoio.2,Yml,5
+Architect / HomePortfoio.2,ATG Dynamo,5
+Architect / HomePortfoio.2,Akamai,5
+Architect / HomePortfoio.2,MS Project,5
+Architect / HomePortfoio.3,Apache Parquet,5
+Architect / HomePortfoio.3,_Secrets Manager,5
+Architect / HomePortfoio.3,_CLI,5
+Architect / HomePortfoio.3,_architecture,5
+Architect / HomePortfoio.3,XSLT,5
+Architect / HomePortfoio.3,Altova XMLSpy,5
+Architect / HomePortfoio.3,_RedShift,5
+Architect / HomePortfoio.3,MySQL,5
+Architect / HomePortfoio.3,_Hibernate,5
+Architect / HomePortfoio.3,Selenium,5
+Architect / HomePortfoio.3,Terraform,5
+Architect / HomePortfoio.3,Yml,5
+Architect / HomePortfoio.3,ATG Dynamo,5
+Architect / HomePortfoio.3,Akamai,5
+Architect / HomePortfoio.3,MS Project,5
+Architect / HomePortfoio.4,Apache Parquet,5
+Architect / HomePortfoio.4,_Secrets Manager,5
+Architect / HomePortfoio.4,_CLI,5
+Architect / HomePortfoio.4,_architecture,5
+Architect / HomePortfoio.4,Selenium,5
+Architect / HomePortfoio.4,Terraform,5
+Architect / HomePortfoio.4,Yml,5
+Architect / HomePortfoio.4,ATG Dynamo,5
+Architect / HomePortfoio.4,Akamai,5
+Technical Lead / BuildingBlocks,Apache Parquet,1
+Technical Lead / BuildingBlocks,_Secrets Manager,1
+Technical Lead / BuildingBlocks,_architecture,1
+Technical Lead / BuildingBlocks,MS Excel ,1
+Technical Lead / BuildingBlocks,_EC2,1
+Technical Lead / BuildingBlocks,Macromedia Director,1
+Technical Lead / BuildingBlocks,C,1
+Technical Lead / BuildingBlocks,MATLAB,1
+Technical Lead / BuildingBlocks,X11,1
+Ph.D. Student / MIT Media Lab,_architecture,7
+Ph.D. Student / MIT Media Lab,_EC2,7
+Ph.D. Student / MIT Media Lab,Macromedia Director,7
+Ph.D. Student / MIT Media Lab,C,7
+Ph.D. Student / MIT Media Lab,MATLAB,7
+Ph.D. Student / MIT Media Lab,X11,7
+Ph.D. Student / MIT Media Lab.1,_architecture,7
+Ph.D. Student / MIT Media Lab.1,_EC2,7
+Ph.D. Student / MIT Media Lab.1,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.1,C,7
+Ph.D. Student / MIT Media Lab.1,MATLAB,7
+Ph.D. Student / MIT Media Lab.1,X11,7
+Ph.D. Student / MIT Media Lab.2,_architecture,7
+Ph.D. Student / MIT Media Lab.2,_EC2,7
+Ph.D. Student / MIT Media Lab.2,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.2,C,7
+Ph.D. Student / MIT Media Lab.2,MATLAB,7
+Ph.D. Student / MIT Media Lab.2,X11,7
+Ph.D. Student / MIT Media Lab.3,_architecture,7
+Ph.D. Student / MIT Media Lab.3,_EC2,7
+Ph.D. Student / MIT Media Lab.3,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.3,C,7
+Ph.D. Student / MIT Media Lab.3,MATLAB,7
+Ph.D. Student / MIT Media Lab.3,X11,7
+Ph.D. Student / MIT Media Lab.4,_architecture,7
+Ph.D. Student / MIT Media Lab.4,_EC2,7
+Ph.D. Student / MIT Media Lab.4,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.4,C,7
+Ph.D. Student / MIT Media Lab.4,MATLAB,7
+Ph.D. Student / MIT Media Lab.4,X11,7
+Ph.D. Student / MIT Media Lab.5,_architecture,7
+Ph.D. Student / MIT Media Lab.5,_EC2,7
+Ph.D. Student / MIT Media Lab.5,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.5,C,7
+Ph.D. Student / MIT Media Lab.5,MATLAB,7
+Ph.D. Student / MIT Media Lab.5,X11,7
+Ph.D. Student / MIT Media Lab.6,_architecture,7
+Ph.D. Student / MIT Media Lab.6,_EC2,7
+Ph.D. Student / MIT Media Lab.6,Macromedia Director,7
+Ph.D. Student / MIT Media Lab.6,C,7
+Ph.D. Student / MIT Media Lab.6,MATLAB,7
+Ph.D. Student / MIT Media Lab.6,X11,7
