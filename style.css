@@ -1,0 +1,18 @@
+
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+  background-color: grey;
+
+  --seniorlink: #2ca02c;
+  --clipfile: #9467bd;
+  --svg: #d62728;
+  --msc: #7f7f7f;
+  --eleven: #8c564b;
+  --emi: #e377c2;
+  --hp: #1f77b4;
+  --mit: #ff7f0e;
+
+}
