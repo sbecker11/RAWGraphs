@@ -52,7 +52,7 @@ The code reduces the density of the job-skills-year matrix by normalizing job va
 
 The resulting "uniquified" matrix is saved to "uniques.csv".
 
-## See the effects of "uniquification" 
+## See the effects of "uniquification"  
 
 Re-open the [RAWgraphs 2.0 beta](https://app.rawgraphs.io/) creator page.  
 
@@ -60,30 +60,88 @@ Choose get started
 1. Load your data - "Upload your data" - choose the local "uniques.csv" file  
 2. Choose a chart - choose "Alluvial"  
 3. Mapping - drop "job" and "skill" dimensions into Steps, and "years" into Size  
-4. Customize - shows the greatly simplified alluvial graphic created for the "uniques.csv" file  
-5. Export - export the resulting graphic as "uniques.png"  
+4. Customize - shows the greatly simplified alluvial graphic created for the "uniques.csv" file 
+   - set the width and height to 600
+5. Export
+   - export the results as "uniques-600x600.svn"  
+   - export the results as "uniques-600x600.png"  
 
-![uniques.png](uniques.png)
+![uniques-600x600.png](./uniques-600x600.png)
 
-## Revise the color pallet  
+Open your browser window to view [uniques-600x600.png](./uniques-600x600.png))
 
-The uniquified result is less dense, and the text is now readable, but the colors are a bit harsh. To soften the color palette, open the Colors section, under Customize and change the RGB value of each job to make them more pastel.
+## Prepare for color adjustments  
 
-Save the graphic as "pastels.png"   
+### Step 1  The `jobs-color-palette`  
 
-![pastels.png](pastels.png)
+The `jobs-color palette`is found in the `style` section of the `index.html` 
+file starting at around line 20.  There is one `stroke` color value that will be 
+used for all of the `path` elements for each `job`.
 
-## Save and reload the project  
+```
+      .seniorlink { stroke: #2ca02c; }
+      .clipfile { stroke: #8fbd67; }
+      .svg { stroke: #d62728; }
+      .clipfile { stroke: #ffff80; }
+      .eleven { stroke: #8c564b; }
+      .emi { stroke: #e377c2; }
+      .msc { stroke: #8977e3; }
+      .hp { stroke: #1f77b4; }
+      .mit { stroke: #ff7f0e; }
+```
 
-Save the project as "pastels.rawgraphs"
+### Step 2  Insert the `svg` file into the `index.html file`
 
-Close the browser window and reopen [RAWgraphs 2.0 beta](https://app.rawgraphs.io/)
-
-In section 1 Load your data, choose "Open your project" 
-and select the "pastels.rawgraphs" file to verify that the project was saved and then loaded correctly.
+Copy the contents of the `uniques-600x600.svg` and insert it into `index.html' 
+between the commented lines `FROM HERE ...` and `... TO HERE`
 
 
+### Step 3 Add `path` class tags  
 
+* Search for a `g-block` that starts with a `g-line` with this value `<g style="mix-blend-mode: multiply;">`  
 
+```
+    <g style="mix-blend-mode: multiply;">                             <!-- a g-line -->
+        <path d="M5,358.79139072847676C290,358.
+            79139072847676,290,4.                                     <!-- a path-line -->
+            966887417218543,575,4.966887417218543" 
+            stroke-width="9.933774834437086"
+            style="--darkreader-inline-stroke: #67d567;" 
+            data-darkreader-inline-stroke=""/>
+        <title>Senior Data Engineer / SeniorLink → Airflow: 3</title> <!-- a title line -->
+    </g>
+```
 
+* The `path-line` is the line under the `g-line` that begins with a `path` tag.  
+* The `title-line` is the line under the `class-line` that begins with a `title` tag.  
+* The contents of the `title-line` has format `role` and `job`.  
+* Use the `job` value to add a `class` tag to the `path-line` referring to the `job-class-pallet`.  
+* If `job` is "SeniorLink", then add `class="seniorlink"` after the `path` tag and before the next `d` tag on the `path-line`.  
+
+If done properly, the updated `g-block` will be this:
+
+```
+    <g style="mix-blend-mode: multiply;"> 
+        <path class="seniorlink" d="M5,358.
+            79139072847676C290,358.79139072847676,290,4. 
+            966887417218543,575,4.966887417218543" 
+            stroke-width="9.933774834437086"
+            style="--darkreader-inline-stroke: #67d567;" 
+            data-darkreader-inline-stroke=""/>
+        <title>Senior Data Engineer / SeniorLink → Airflow: 3</title>
+    </g>
+```
+
+Continue adding `class` tags to `g-blocks`.   
+On last count there were a total of 37 such lines.  
+
+### Step 4.  
+
+Now open `index.html` in a browser window, to verify that the `index.html` file 
+has the same `ribbons` as those found in the original `uniques-600x600.svg` file.  
+
+## Make color adjustments  
+
+Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values 
+for each job class and refresh the browser page to see the results.
 
