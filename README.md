@@ -74,25 +74,27 @@ Open your browser window to view [uniques-600x600.png](./uniques-600x600.png))
 
 ### Step 1  The `jobs-color-palette`  
 
-The `jobs-color palette`is found in the `style` section of the `index.html` 
-file starting at around line 20.  There is one `stroke` color value that will be 
-used for all of the `path` elements for each `job`.
+The `jobs-color palette`is found in the `style` section of the `ribbons.html` 
+file starting at around line 20.  There is a `stroke` color value and a 
+stroke `hover` color value that will be used for all of the `path` elements 
+for each `job`.
 
 ```
       .seniorlink { stroke: #2ca02c; }
+      .seniorlink:hover { stroke: white; }
+
       .clipfile { stroke: #8fbd67; }
-      .svg { stroke: #d62728; }
-      .clipfile { stroke: #ffff80; }
-      .eleven { stroke: #8c564b; }
-      .emi { stroke: #e377c2; }
-      .msc { stroke: #8977e3; }
-      .hp { stroke: #1f77b4; }
-      .mit { stroke: #ff7f0e; }
+      .clipfile:hover { stroke: white; }
+
+      ... and so on ...
 ```
 
-### Step 2  Insert the `svg` file into the `index.html file`
+Notice that all `hover` psuedo-classes currently use `white`.
 
-Copy the contents of the `uniques-600x600.svg` and insert it into `index.html' 
+
+### Step 2  Insert the `svg` file into the `ribbons.html file`
+
+Copy the contents of the `uniques-600x600.svg` and insert it into `ribbons.html' 
 between the commented lines `FROM HERE ...` and `... TO HERE`
 
 
@@ -137,11 +139,30 @@ On last count there were a total of 37 such lines.
 
 ### Step 4.  
 
-Now open `index.html` in a browser window, to verify that the `index.html` file 
-has the same `ribbons` as those found in the original `uniques-600x600.svg` file.  
+Now open `ribbons.html` in a browser window, to verify that it has the 
+same `ribbons` as those found in the original `uniques-600x600.svg` file.  
 
 ## Make color adjustments  
 
 Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values 
 for each job class and refresh the browser page to see the results.
+
+## Backlog
+
+* Remove the "job" and "skill" headers
+
+* Remove the double underscores from the job text labels.
+
+* Text labels should be aligned to abutt against the edge of 
+the ribbons box with the rest fallling outside.
+
+* The verticle bar colors are randomly white and black. They 
+should have the same color as its ribbon and should have a 
+hz gap that separates it from its ribbon.
+
+* The job boxes shown on the jobs page should match the 
+colors in the ribbons box.
+
+
+
 
