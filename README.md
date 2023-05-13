@@ -150,6 +150,10 @@ same `ribbons` as those found in the original `uniques-600x600.svg` file.
 Also verify that the ribbon colors change on mouse hover.  
 
 
+
+![ribbons.html](./ribbons.html)
+
+
 ## Make color adjustments  
 
 Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values 
