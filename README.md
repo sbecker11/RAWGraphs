@@ -143,7 +143,7 @@ Now open `ribbons.html` in a browser window, to verify that it has the
 same `ribbons` as those found in the original `uniques-600x600.svg` file.  
 
 
-The color mapped ![ribbons.html file](./ribbons.html)
+The hover-enhanced color-mapped ![ribbons.html file](./ribbons.html)
 
 
 ## Make color adjustments  
