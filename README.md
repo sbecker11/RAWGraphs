@@ -145,7 +145,10 @@ On last count there were a total of 37 such lines.
 
 ### Step 4.  
 
-Now open [[`ribbons.html`](./ribbons.html)] in a browser window, to verify that it has the same ribbon structure as those found in the original `uniques-600x600.svg` file.
+If you're viewing this from github download the [[`ribbons.html`](./ribbons.html)] to your local machine and open it in a new browser window.  
+
+Verify that it has the same ribbon structure as those found in the original `uniques-600x600.svg` file.  
+
 Also verify that the ribbon colors change on mouse hover.  
 
 
