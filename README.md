@@ -1,122 +1,135 @@
-# Creating my own skills-jobs chart using RAWgraphs.io
+# Creating my own  job-skills RAWGraph
 
 [RAWGraphs](https://www.rawgraphs.io/) is a free and open source tool for data visualization.
 
 Check out their [gallery of options](https://www.rawgraphs.io/gallery)
 
-This project shows how I created my own "Alluvial" graph using a matrix of my jobs, skills, and number of years at each job.
+This project shows how I created my own "Alluvial" graph using a matrix of my jobs and skills, and number of years at each job.
 
-I started by creating a [job-skills-years.xlsx](job-skills-years.xlsx) MSExcel spreadsheet with the following features:  
+I started by creating a [job-skills.xlsx](job-skills.xlsx) MSExcel spreadsheet with the following features:  
 
 Rows:  
-row 1 shows "Professional Experience" or jobs  
-row 2 is the number of "years" at each job  
-rows 3 to 5 are visuals  
-row 6 shows the year of each job  
+
+* row 1 shows "Professional Experiences" or "jobs"  
+* row 2 is the number of years at each job  
+* rows 4 to 6 are color-coded visual helpers  
+* row 7 shows the year of each job  
 
 Columns:  
-col 1 shows "Technical Skills" or "skills"  
-each col after 'C' or 3, show skills for a job  
+
+* col A shows "Technical Skills" or "skills"  
+* col B is the computed years of experience for each skill
+* cols between C and AK show skills for a job  
 'x' indicates a skill for a given job in a given year  
 
-## Create the dense job-skills-years matrix  
+* cols after AK associate skills with "Skill Categories",
+but these are not used at this time.
 
-The [rawgraph_from_excel.py](rawgraph_from_excel.py) python module loads the job-skills-years.xlsx file into a Pandas DataFrame.
+## Generate the `job-skills-rawgraph.csv` file  
 
-All skill-row, job-column, and year-cells marked with 'x' are used to create \(skill-job-year\) tuplets, which are stored as rows in a local [dense.csv](dense.csv).
+The `rawgraph_csv_from_excel.py` Python script
+reads the contents of the `job-skills.xlsx` spreadsheet
+into a Pandas dataframe.
 
-## Create the dense job-skills-years graphic  
+The following rules are applied keep only the data
+used to generate the rawgraph:
 
-To create an Alluvial graph from this csv file of tuplets, open the 
-[RAWgraphs 2.0 beta](https://app.rawgraphs.io/)
-creator page
-
-1. Load your data - Upload your data - choose the local "dense.csv" file  
-2. Choose a chart - choose "Alluvial"  
-3. Mapping - drop "job" and "skill" Dimensions into  Steps, and "years" into Size  
-4. Customize - make no changes
-5. Export - download the resulting graph as a png file.
-
-The resulting graphic is quite dense and the text is unreadable. 
-So I needed to take steps to reduce its density.
-
-## Reduce matrix density by "uniquification"  
-
-The code reduces the density of the job-skills-year matrix by normalizing job values 
-and keeping only selected rows before dropping duplicate rows. This is done in the following steps:  
-1. normalize job values (remove trailing digit suffix)
-2. keep only skill rows that have more than 1 non-NaN job value  
-3. keep only skill rows with years > 1  
-4. keep only skill rows that start with '_'  
+1. keep only columns between C and AK
+2. keep only rows >= 9  
+3. keep only rows with B > 1
+4. keep only skill rows prefixed with '_'  
 5. drop duplicate rows  
 
-The resulting "uniquified" matrix is saved to "uniques.csv".
+The reduced dataframe is saved to "job-skills-rawgraph.csv".
 
-## See the effects of "uniquification"  
+## Create the rawgraph
 
-Re-open the [RAWgraphs 2.0 beta](https://app.rawgraphs.io/) creator page.  
+Open your browser to the [RAWgraphs 2.0 beta](https://app.rawgraphs.io/) creator page.  
 
 Choose get started  
+
 1. Load your data  
-   - "Upload your data" - choose the local "uniques.csv" file  
+   * "Upload your data" - choose the local "job-skills-rawgrap.csv" file  
 2. Choose a chart  
-   - choose "Alluvial"  
+   * choose "Alluvial"  
 3. Mapping  
-   - drag "job" and "skill" dimensions into Steps  
-   - drag "years" into Size  
-4. Customize  
-   - set the width and height to 600  
+   * drag "job" and "skill" dimensions into Steps  
+   * drag "years" into Size  
+4. Customize (feel free to experiment!!)
+   * Width: 600
+   * Height: 600  
+   * Background: #000000
+   * Margins: 10
+   * Nodes width: 5
+   * Padding: 5
+   * Links opacity: 0.8
+   * Links blend mode: normal
+   * Sort nodes by: Name
+   * Rows alignment: Center
+   * Color scale: Ordinal
+   * Color schema: Spectral discrete
+   * Show nodes values: No
 5. Export  
-   - export the results as "uniques-600x600.svn"  
-   - export the results as "uniques-600x600.png"  
+   * export the results as "job-skills-600x600.svn"  
+   * export the results as "job-skills-600x600.png"  
 
+Open your browser window to see the newly generated [job-skills-600x600.svg](./job-skills-600x600.svg)) file.
 
+![job-skills-600x600.png](./job-skills-600x600.png)
 
-![uniques-600x600.png](./uniques-600x600.png)
-
-Open your browser window to view [uniques-600x600.png](./uniques-600x600.png))
-
-## Prepare for color adjustments  
+## Prepare the svg file for color adjustments  
 
 ### Step 1  The `jobs-color-palette`  
 
-The `jobs-color palette`is found in the `style` section of the `ribbons.html` 
-file starting at around line 20.  There is a `stroke` color value and a 
-stroke `hover` color value that will be used for all of the `path` elements 
+The `jobs-color palette`is found in the `style` section of the `job-skills.html`
+file starting at around line 20.  There is a `stroke` color value and a
+stroke `hover` color value that will be used for all of the `path` elements
 for each `job`.
 
-```
-      .seniorlink { stroke: #2ca02c; }
-      .seniorlink:hover { stroke: white; }
-
-      .clipfile { stroke: #8fbd67; }
-      .clipfile:hover { stroke: white; }
-
+``` html
+      .seniorlink {
+        stroke: rgb(251, 163, 94);
+      }
+      .seniorlink:hover {
+        stroke: white;
+      }
+      .clipfile {
+        stroke: rgb(235, 247, 166);
+      }
+      .clipfile:hover {
+        stroke: white;
+      }
       ... and so on ...
 ```
 
 Notice that all `hover` psuedo-classes currently use `white`.
 
+### Step 2  Insert the `svg` file into the `job-skills.html` file
 
-### Step 2  Insert the `svg` file into the `ribbons.html file`
+Copy the contents of the `job-skills-600x600.svg` and insert it into `job-skills.html'
+between the commented lines`FROM HERE ...` and `... TO HERE`.
 
-Copy the contents of the `uniques-600x600.svg` and insert it into `ribbons.html' 
-between the commented lines `FROM HERE ...` and `... TO HERE`
+### Step 3  Apply the formatter  
 
+To make the updated `job-skills.html` file more readable, use `shift-command-p`
+(on macos) to open the command pallete,  select "Format Document With...",
+and choose "Prettier Code Formatter (default)" or "HTML Language Features",
+whichever you prefer.
 
-### Step 3 Add `path` class tags  
+### Step 4 Add `path` class tags and remove `stroke` properties  
 
-* Search for a `g-block` that starts with a `g-line` with this value `<g style="mix-blend-mode: multiply;">`  
+* Search for a `g-block` that starts with a `g-line` that looks something like this, `<g style="mix-blend-mode: normal;">`  
 
-```
-    <g style="mix-blend-mode: multiply;">                             <!-- a g-line -->
+``` html
+    <g style="mix-blend-mode: normal">                                  <!-- g-line -->
         <path d="M5,358.79139072847676C290,358.
-            79139072847676,290,4.                                     <!-- a path-line -->
+            79139072847676,290,4.                                       <!-- path-line -->
             966887417218543,575,4.966887417218543" 
+            stroke=rgb(251, 163, 94)                                    <!-- stroke-property -->
             stroke-width="9.933774834437086"
             style="--darkreader-inline-stroke: #67d567;" 
             data-darkreader-inline-stroke=""/>
-        <title>Senior Data Engineer / SeniorLink → Airflow: 3</title> <!-- a title line -->
+        <title>Senior Data Engineer / SeniorLink → Airflow: 3</title>   <!-- title line -->
     </g>
 ```
 
@@ -124,12 +137,13 @@ between the commented lines `FROM HERE ...` and `... TO HERE`
 * The `title-line` is the line under the `class-line` that begins with a `title` tag.  
 * The contents of the `title-line` has format `role` and `job`.  
 * Use the `job` value to add a `class` tag to the `path-line` referring to the `job-class-pallet`.  
-* If `job` is "SeniorLink", then add `class="seniorlink"` after the `path` tag and before the next `d` tag on the `path-line`.  
+* For example, if `job` is "SeniorLink", then add `class="seniorlink"` after the `path` tag and before the next `d` tag on the `path-line`.  
+* Finally, remove the `stroke-property`, since it will be overriden by the `jobs-color palette`.
 
 If done properly, the updated `g-block` will be this:
 
-```
-    <g style="mix-blend-mode: multiply;"> 
+``` html
+    <g style="mix-blend-mode: normal;"> 
         <path class="seniorlink" d="M5,358.
             79139072847676C290,358.79139072847676,290,4. 
             966887417218543,575,4.966887417218543" 
@@ -140,40 +154,33 @@ If done properly, the updated `g-block` will be this:
     </g>
 ```
 
-Continue adding `class` tags to `g-blocks`.   
-On last count there were a total of 37 such lines.  
+Continue adding `class` tags and removing `stroke` properties to the remaining
+`g-blocks`.  On last count there was a total of 37 `g-blocks`.
 
-### Step 4.  
+### Step 5  
 
-If you're viewing this from github download the [[`ribbons.html`](./ribbons.html)] to your local machine and open it in a new browser window.  
+If you're viewing this from github download the
+[[`job-skills.html`](./job-skills.html)] to your local machine and open it in a new browser window.  
 
-Verify that it has the same ribbon structure as that found in the original `uniques-600x600.svg` file.  
+Verify that it has the same ribbon structure as that found in the original `job-skills-600x600.svg` file.  
 
 Also verify that the ribbon colors change on mouse hover.  
 
-
-
 ## Make color adjustments  
 
-Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values 
+Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values
 for each job class and refresh the browser page to see the results.
 
 ## Backlog
 
-* Remove the "job" and "skill" headers
+* Remove the "job" and "skill" headers.
 
-* Remove the double underscores from the job text labels.
+* Text labels should be white not black and aligned to abutt
+  against the outside edges of the job-skills box with the rest of
+  the text falling outside.
 
-* Text labels should be aligned to abutt against the edge of 
-the ribbons box with the rest fallling outside.
+* Verticle node bars are currently black, but they should have
+  the ribbon color with padding outside of each ribbon end.
 
-* The verticle bar colors are randomly white and black. They 
-should have the same color as its ribbon and should have a 
-hz gap that separates it from its ribbon.
-
-* The job boxes shown on the jobs page should match the 
-colors in the ribbons box.
-
-
-
-
+* Related: the job boxes shown on the jobs page should match the
+  colors in the job-skills box.
