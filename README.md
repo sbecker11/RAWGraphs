@@ -142,6 +142,10 @@ On last count there were a total of 37 such lines.
 Now open `ribbons.html` in a browser window, to verify that it has the 
 same `ribbons` as those found in the original `uniques-600x600.svg` file.  
 
+
+The color mapped ![ribbons.html file](./ribbons.html)
+
+
 ## Make color adjustments  
 
 Now we're ready to adjust the `jobs-color-palette`.  Simplly edit color values 
