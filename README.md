@@ -37,13 +37,13 @@ creator page
 4. Customize - make no changes
 5. Export - download the resulting graph as a png file.
 
-![dense.png](dense.png)
-
-Notice that the resulting graphic is quite dense and the text is unreadable.
+The resulting graphic is quite dense and the text is unreadable. 
+So I needed to take steps to reduce its density.
 
 ## Reduce matrix density by "uniquification"  
 
-The code reduces the density of the job-skills-year matrix by normalizing job values and keeping only selected rows before dropping duplicate rows. This is done in the following steps:  
+The code reduces the density of the job-skills-year matrix by normalizing job values 
+and keeping only selected rows before dropping duplicate rows. This is done in the following steps:  
 1. normalize job values (remove trailing digit suffix)
 2. keep only skill rows that have more than 1 non-NaN job value  
 3. keep only skill rows with years > 1  
@@ -57,14 +57,20 @@ The resulting "uniquified" matrix is saved to "uniques.csv".
 Re-open the [RAWgraphs 2.0 beta](https://app.rawgraphs.io/) creator page.  
 
 Choose get started  
-1. Load your data - "Upload your data" - choose the local "uniques.csv" file  
-2. Choose a chart - choose "Alluvial"  
-3. Mapping - drop "job" and "skill" dimensions into Steps, and "years" into Size  
-4. Customize - shows the greatly simplified alluvial graphic created for the "uniques.csv" file 
-   - set the width and height to 600
-5. Export
+1. Load your data  
+   - "Upload your data" - choose the local "uniques.csv" file  
+2. Choose a chart  
+   - choose "Alluvial"  
+3. Mapping  
+   - drag "job" and "skill" dimensions into Steps  
+   - drag "years" into Size  
+4. Customize  
+   - set the width and height to 600  
+5. Export  
    - export the results as "uniques-600x600.svn"  
    - export the results as "uniques-600x600.png"  
+
+
 
 ![uniques-600x600.png](./uniques-600x600.png)
 
