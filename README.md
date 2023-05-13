@@ -140,10 +140,8 @@ On last count there were a total of 37 such lines.
 ### Step 4.  
 
 Now open `ribbons.html` in a browser window, to verify that it has the 
-same `ribbons` as those found in the original `uniques-600x600.svg` file.  
-
-
-The hover-enhanced color-mapped ![ribbons.html file](./ribbons.html)
+same `ribbons` as those found in the original `uniques-600x600.svg` file.
+Also verify that the ribbon colors change on mouse hover.  
 
 
 ## Make color adjustments  
